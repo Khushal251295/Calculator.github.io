@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+.box{
+
+    width: 300px;
+    height: 442px;
+    background-color: #0c2434;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 0.22;   
+}
+.Display-style{
+    height: 100px;
+    width: 296px;
+    background-color: #ffff;
+    border: none;
+    outline-style: none;
+    text-align: right;
+    font-size: x-large;
+    font-weight: 700;
+    color: #5E5858;
+}
+.keys-style{
+
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    background-color: #0c2434;
+
+    border: none;
+    font-size: x-large;
+    font-weight: 700;
+    color: #ffff;
+}
+.keys-style:hover{
+    background-color: #48FCF4;
+}
+.clean{
+
+    width: 80px;
+    height: 40px;
+    border: none;
+    font-size: x-large;
+    font-weight: 700;
+    color: #fff;  
+    background-color: #48FCF4;
+
+}
+.clean:hover{
+    background-color: #ff2d7a;
+}
+
+h1{
+    width: 20%;
+    color: #ffff;
+    position: absolute;
+    top: 13%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+}
+@media screen and (min-width: 601px) {
+    div.h1 {
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    h1 {
+        width: 70%;
+      font-size: 25px;
+      position: absolute;
+      top: 8%
+    }
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
